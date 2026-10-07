@@ -7,6 +7,7 @@
 | # | 题目 | 解法 | 时间 | 空间 | 代码 |
 |---|------|------|------|------|------|
 | 1 | [两数之和](https://leetcode.cn/problems/two-sum/) | 哈希表 | O(n) | O(n) | [TwoSum.java](src/TwoSum.java) |
+| 27 | [移除元素](https://leetcode.cn/problems/remove-element/) | 数组搬移 | O(n²) | O(1) | [RemoveElement.java](src/RemoveElement.java) |
 
 ## 环境
 
@@ -18,7 +19,8 @@
 ```
 leetcode/
 ├── src/              # 所有题解
-│   └── TwoSum.java
+│   ├── TwoSum.java
+│   └── RemoveElement.java
 ├── .gitignore
 └── README.md
 ```
